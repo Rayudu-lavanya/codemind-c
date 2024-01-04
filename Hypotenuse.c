@@ -2,8 +2,9 @@
 #include<math.h>
 int main()
 {
-    float p,q,res;
-    scanf("%f%f",&p,&q);
-    res = (sqrt(p*p+q*q));
+    float P,Q,res;
+    scanf("%f%f",&P,&Q);
+    res = (sqrt(P*P+Q*Q));
     printf("%.2f",res);
 }
+
