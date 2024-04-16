@@ -1,0 +1,13 @@
+#include<stdio.h>
+int main()
+{
+int n,digit_count=0;
+scanf("%d",n);
+while(n!=0)
+{
+n=n/10;
+digit_count=digit_count+1;
+}
+printf("%d",digit_count);
+return 0;
+}
